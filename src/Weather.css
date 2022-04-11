@@ -1,0 +1,108 @@
+.Weather {
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+
+  }
+  .Weather .form-control {
+    display: inline;
+    border:none;
+
+  }
+  .btn-primary {
+    display: inline-block;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    background-color: rgb(52, 207, 194) ;
+    border: 1px inset;
+    border-color: rgba(241, 204, 204, 0.479) ;
+    border-radius: 8px ;
+    transition: all 200ms ease-in-out;
+}
+button:hover {
+    background-color: rgb(49, 54, 54) ;
+    color: white;
+  }
+
+  
+  .Weather h1 {
+    color: #070606;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-transform: bold;
+    text-size-adjust: 20px;
+  }
+
+  .Weather ul {
+    margin: 0;
+    padding: 0;
+  }
+  .Weather li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(59, 59, 59);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li:first-letter {
+    text-transform: capitalize;
+  }
+  .col-6 {
+    display: flex;
+    padding: 15px;
+  }
+  .col-3 {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .city-input {
+    width: 90px;
+  }
+  .weather-app-wrapper {
+    max-width: 600px;
+    margin: 30px auto;
+  }
+
+  .Weather {
+    margin-top: 5px;
+    margin-right: 10px;  
+  }
+
+  .Weather .temperature {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 0; 
+}
+
+  .Weather .helper {
+    display: inline-block;
+    margin-left:10px;
+    height: 100%;
+  }
+  .Weather .unit {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 64px;
+    vertical-align: top;
+  }
+
+
+
+
+  
