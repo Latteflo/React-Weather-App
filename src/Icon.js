@@ -30,5 +30,7 @@ export default function Icon(props) {
       size={[props.size]}
       animate={true}
     />
+
+    
   );
 }
