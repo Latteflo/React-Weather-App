@@ -5,7 +5,13 @@
   .WeatherForecast  {
     margin: 0;
   }
-  
+  .dailyForecast{
+    display: flex;
+    flex: 1 0;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .WeatherForecast-temperature-min {
     opacity: 0.6;
     margin-left: 5px;

@@ -10,12 +10,20 @@
     border: 1px solid rgba(255, 255, 255, 0.16);
 
   }
-  .Weather .form-control {
-    display: inline;
-    border:none;
 
-  }
-  .btn-primary {
+  .Weather .form-control {
+    display: flex;
+    border: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.Weather .submit-btn{
+    display:flex;
+}
+
+ .btn-primary {
     display: inline-block;
     width: 100px;
     margin: 0px;
@@ -60,26 +68,16 @@ button:hover {
 li:first-letter {
     text-transform: capitalize;
   }
-  .col-6 {
-    display: flex;
-    padding: 15px;
-  }
+
   .col-3 {
     display: flex;
     gap: 10px;
   }
-  
-  .city-input {
-    width: 90px;
-  }
-  .weather-app-wrapper {
-    max-width: 600px;
-    margin: 30px auto;
-  }
 
-  .Weather {
-    margin-top: 5px;
-    margin-right: 10px;  
+  .col-6{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
   }
 
   .Weather .temperature {
@@ -102,7 +100,6 @@ li:first-letter {
     vertical-align: top;
   }
 
-
-
-
-  
+.weatherInfo{
+    text-align: center;
+}

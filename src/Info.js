@@ -1,10 +1,12 @@
 import React from "react";
 import Date from "./Date";
 import Icon from "./Icon";
+import "./Weather.css";
 
 export default function Info(props) {
   return (
-    <div className="WeatherInfo">
+    <div className="weatherInfo">
+      <div classname="col-6">
       <h1>{props.data.city}</h1>
       <ul>
         <li>
@@ -34,6 +36,7 @@ export default function Info(props) {
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 }
