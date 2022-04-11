@@ -58,7 +58,8 @@ button:hover {
     margin-bottom: 0;
     text-transform: bold;
     text-size-adjust: 20px;
-    text-align: center;
+    padding-left: 20px;
+    
 }
 
   .Weather ul {
@@ -70,7 +71,7 @@ button:hover {
   list-style: none;
   margin: 0;
   padding: 4px;
-  color: rgb(59, 59, 59);
+  color: black;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -88,13 +89,13 @@ li:first-letter {
   .right-col{
     flex-direction: column;
     justify-content: flex-end;
-    width: 30%;
+    width: 38%;
 
   }
   .left-col{
     flex-direction: column;;
     justify-content: flex-start;
-    width: 50%;
+    width: 60%;
     padding: 2%;
 }
 
@@ -121,5 +122,6 @@ li:first-letter {
 
 .weatherInfo{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-direction: row-reverse
 }

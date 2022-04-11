@@ -24,8 +24,8 @@ export default function Info(props) {
           <span className="WeatherTemperature">
             <div className="temperature">
               {" "}
-              {Math.round(props.data.temperature)}{" "}
-            <span className="unit">°C </span>
+              {Math.round(props.data.temperature)}{" "}°
+            <span className="unit">C </span>
             </div>
           </span>
       </div>
