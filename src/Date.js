@@ -24,8 +24,8 @@ export default function Date(props) {
   }
 
   return (
-    <div>
+    <span>
       {day} {hours}:{minutes}
-    </div>
+    </span>
   );
 }
