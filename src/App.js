@@ -17,11 +17,11 @@ function App() {
             rel="noopener noreferrer"
           >
           Github
-          </a>|{" "}
+          </a>{" "}|{" "}
           
           <a href="https://jolly-dieffenbachia-9068d8.netlify.app/">
             Hosted on Netlify
-          </a>|
+          </a>{" "}|{" "}
              Weather icons by 
              <a href="https://basmilius.github.io/weather-icons/index-line.html"
              target="_blank"
