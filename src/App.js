@@ -8,18 +8,24 @@ function App() {
       <div className="container">
         <Weather defaultCity="Rome" />
         <footer>
-          This project was coded by Florentina Simion and is{" "}
+         This app was created by Florentina Simion ©, as part of her SheCodes React final projects.
+         <br/>
+         {" "}Open-sourced on{" "}
           <a
             href="https://github.com/Latteflo/React-Weather-App"
             target="_blank"
             rel="noopener noreferrer"
           >
-            open-sourced on Github
-          </a>{" "}
-          and{" "}
+          Github
+          </a>|{" "}
+          
           <a href="https://jolly-dieffenbachia-9068d8.netlify.app/">
-            hosted on Netlify
-          </a>
+            Hosted on Netlify
+          </a>|
+             Weather icons by 
+             <a href="https://basmilius.github.io/weather-icons/index-line.html"
+             target="_blank"
+             > Basmilius </a>.
         </footer>
       </div>
     </div>
