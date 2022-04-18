@@ -19,7 +19,7 @@ export default function Info(props) {
       </div>
         <div className="right-col">
             <div className="icon">
-            <Icon code={props.data.icon} size={56} />
+            <Icon code={props.data.icon} size={50} />
           </div>
           <span className="WeatherTemperature">
             <div className="temperature">
