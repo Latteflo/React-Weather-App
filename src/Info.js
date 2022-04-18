@@ -9,7 +9,13 @@ export default function Info(props) {
   <h1>{props.data.city}</h1>
   <br/>
     <div className="row weatherInfo">
-      <div classname="left-col">
+      <div classname="left-col"> 
+      <span className="WeatherTemperature">
+            <div className="temperature">
+              {" "}
+              {Math.round(props.data.temperature)}{" "}° 
+            <span className="unit">C </span></div>
+  </span>
       <ul>
         <li> Last updated: <Date date={props.data.date} /></li>
         <li className="text-capitalize"> {props.data.description}</li> 
@@ -17,19 +23,14 @@ export default function Info(props) {
         <li>Wind: {Math.round(props.data.wind)} km/h</li>
       </ul>
       </div>
+
         <div className="right-col">
-            <div className="icon">
+            <div className="icon WeatherTemperature">
             <Icon code={props.data.icon} size={50} />
           </div>
-          <span className="WeatherTemperature">
-            <div className="temperature">
-              {" "}
-              {Math.round(props.data.temperature)}{" "}°
-            <span className="unit">C </span>
             </div>
-          </span>
-      </div>
-    </div>
-    </div>
+        </div>
+        </div>
+ 
   );
 }

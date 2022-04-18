@@ -2,10 +2,10 @@
     padding: 15px;
     margin: 15px auto;
     max-width: 600px;
-    background: rgba(255, 255, 255, 0.34);
+    background: rgb(180 218 221);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
-    backdrop-filter: blur(6.9px);
+    backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(6.9px);
     border: 1px solid rgba(255, 255, 255, 0.16);
 
@@ -36,7 +36,7 @@
     padding: 10px 10px 10px 10px;
     cursor: pointer;
     color:white;
-    background-color: rgb(52, 207, 194) ;
+    background-color: rgb(244 159 15);
     border: 1px inset;
     border-color: rgba(241, 204, 204, 0.479) ;
     border-radius: 8px ;
@@ -69,7 +69,7 @@ button:hover {
   .Weather li {
   list-style: none;
   margin: 0;
-  padding: 10px;
+  padding: 2px;
   color: black;
   font-size: 16px;
   font-weight: 100;
