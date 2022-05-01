@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Rome" />
+        <Weather defaultCity="Brussels" />
         <footer>
          This app was created by Florentina Simion ©, as part of her SheCodes React final projects.
          <br/>

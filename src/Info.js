@@ -14,7 +14,8 @@ export default function Info(props) {
             <div className="temperature">
               {" "}
               {Math.round(props.data.temperature)}{" "}° 
-            <span className="unit">C </span></div>
+            <span className="unit"> C
+              </span></div>
   </span>
       <ul>
         <li> Last updated: <Date date={props.data.date} /></li>
