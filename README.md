@@ -1,4 +1,4 @@
-This weather app was created using React and CSS.
+This weather app was created using React, CSS and OpenWeather Api.
 
 It is a simple yet functional app that allows users to check the current weather conditions for their location. 
 
