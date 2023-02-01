@@ -8,7 +8,7 @@ function App() {
       <div className="container">
         <Weather defaultCity="Brussels" />
         <footer>
-         This app was created by Florentina Simion ©, as part of her SheCodes React final projects.
+         This app was created by ©Florentina Simion, as part of SheCodes React final project.
          <br/>
          {" "}Open-sourced on{" "}
           <a
